@@ -7,4 +7,9 @@ urlpatterns = [
         views.user_register,
         name='user_register'
     ),
+    path(
+        'auth/login',
+        views.user_login,
+        name='user_login'
+    ),
 ]
