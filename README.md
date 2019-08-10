@@ -27,4 +27,4 @@ The goal of this project is to present a simple authentication app. It's create 
 
 ```auth/register``` POST - Register user
 
-```aauth/login```  POST log user in
+```auth/login```  POST - Log user in. That return a json data; example: {id: 1, username: username}
